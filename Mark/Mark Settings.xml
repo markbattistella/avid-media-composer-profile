@@ -6047,7 +6047,7 @@
     <AvClass id="KSET">
       <AvProp id="ASET" name="name" type="string">markbattistella</AvProp>
       <AvProp id="ASET" name="kind" type="string">Keyboard</AvProp>
-      <AvProp id="ASET" name="attributes" type="int16">144</AvProp>
+      <AvProp id="ASET" name="attributes" type="int16">145</AvProp>
       <AvProp id="ASET" name="type" type="int16">18</AvProp>
       <AvProp id="KBst" name="KBD_NUM_STATES" type="int16">2</AvProp>
       <AvProp id="KBst" name="KBD_MAX_KEYS" type="int16">128</AvProp>
@@ -6090,7 +6090,7 @@
       <AvProp id="KBst" name="cmd" type="int32">6203</AvProp>
       <AvProp id="KBst" name="simOption" type="Boolean">FALSE</AvProp>
       <AvProp id="KBst" name="simControl" type="Boolean">FALSE</AvProp>
-      <AvProp id="KBst" name="cmd" type="int32">0</AvProp>
+      <AvProp id="KBst" name="cmd" type="int32">6204</AvProp>
       <AvProp id="KBst" name="simOption" type="Boolean">FALSE</AvProp>
       <AvProp id="KBst" name="simControl" type="Boolean">FALSE</AvProp>
       <AvProp id="KBst" name="cmd" type="int32">6400</AvProp>
@@ -9772,15 +9772,15 @@
               <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">43</AvProp>
             </ListElem>
             <ListElem>
-              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">FAST_SCRUB</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">1</AvProp>
-            </ListElem>
-            <ListElem>
               <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">4</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">TL_CMDBUTS</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:BobSize" type="int32">208</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:BobData" type="bytes">208 7b 18 0 0 0 0 0 0 76 18 0 0 0 0 0 0 78 18 0 0 0 0 0 0 79 18 0 0 0 0 0 0 97 18 0 0 0 0 0 0 7a 18 0 0 0 0 0 0 6b 18 0 0 0 0 0 0 99 18 0 0 0 0 0 0 41 18 0 0 0 0 0 0 42 18 0 0 0 0 0 0 43 18 0 0 0 0 0 0 46 18 0 0 0 0 0 0 62 18 0 0 0 0 0 0 4d 18 0 0 0 0 0 0 49 18 0 0 0 0 0 0 4a 18 0 0 0 0 0 0 1d 19 0 0 0 0 0 0 1e 19 0 0 0 0 0 0 b2 18 0 0 0 0 0 0 b3 18 0 0 0 0 0 0 b4 18 0 0 0 0 0 0 24 19 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 19 0 0 0 0 0 0 9b 19 0 0 0 0 0 0 </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">FAST_SCRUB</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">1</AvProp>
             </ListElem>
             <ListElem/>
           </List>
@@ -9796,16 +9796,6 @@
         <AvClass id="ATTR">
           <AvProp id="ATTR" name="__OMFI:ATTR:NumItems" type="int32">16</AvProp>
           <List id="OMFI:ATTR:AttrRefs">
-            <ListElem>
-              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_TL_NOTES_GANG_ON</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
-            </ListElem>
-            <ListElem>
-              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_TL_NOTES_IMAGE_COL_WIDTH</AvProp>
-              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">75</AvProp>
-            </ListElem>
             <ListElem>
               <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">Pos_Clip Name</AvProp>
@@ -9875,6 +9865,16 @@
               <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">Vis_Frame</AvProp>
               <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_TL_NOTES_GANG_ON</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ATN_TL_NOTES_IMAGE_COL_WIDTH</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">75</AvProp>
             </ListElem>
             <ListElem/>
           </List>
@@ -9973,9 +9973,9 @@
                 <AvClass id="Decs">
                   <AvProp id="Decs" name="version" type="int16">1</AvProp>
                   <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
-                  <AvProp id="Decs" name="DecorationFrame" type="int16">1743</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">4183</AvProp>
                   <AvProp id="Decs" name="DecorationFrame" type="int16">51</AvProp>
-                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">4291</AvProp>
                   <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
                   <AvProp id="Decs" name="Attrs" type="reference">
                     <AvClass id="CATL">
@@ -16344,6 +16344,1002 @@
                   <AvProp id="Decs" name="DecorationFrame" type="int16">1555</AvProp>
                   <AvProp id="Decs" name="DecorationFrame" type="int16">1162</AvProp>
                   <AvProp id="Decs" name="DecorationFrame" type="int16">1844</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">1d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">8 4f 47 1b cd f9 db ec fd </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_MEDIASTORE_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">128</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">156</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_IAC_HELP_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">524</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">648</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_INTERPLAYWINDOWIPC_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Decs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">500</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">100</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1000</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">880</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_IPMESSAGINGWINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Decs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">200</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">400</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">500</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">900</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_BACKGROUNDQUEUE_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">25</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1203</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">549</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_UPLOAD_DOWNLOAD_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">638</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1203</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1162</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">_USETG_AudioMixPaneDisplayOpts</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:IntAttribute" type="int32">127</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">_USETG_AudioMixerSidebarWidth</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:IntAttribute" type="int32">-132</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_MEDIAWINDOW_ZOOM</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:IntAttribute" type="int32">100</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_HELPWINDOW_ZOOM</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:IntAttribute" type="int32">100</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">ProjWinPage</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:IntAttribute" type="int32">1</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_CWMODE</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:IntAttribute" type="int32">6260</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">DECORATION_STATE_READY</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:IntAttribute" type="int32">1</AvProp>
+            </ListElem>
+            <ListElem/>
+          </List>
+        </AvClass>
+      </AvProp>
+    </AvClass>
+    <AvClass id="WKst">
+      <AvProp id="ASET" name="name" type="string">Remote - iMac</AvProp>
+      <AvProp id="ASET" name="kind" type="string">Workspace View</AvProp>
+      <AvProp id="ASET" name="attributes" type="int16">128</AvProp>
+      <AvProp id="ASET" name="type" type="int16">18</AvProp>
+      <AvProp id="WKst" name="iProduct" type="int16">0</AvProp>
+      <AvProp id="ASET" name="attrList" type="reference">
+        <AvClass id="ATTR">
+          <AvProp id="ATTR" name="__OMFI:ATTR:NumItems" type="int32">6</AvProp>
+          <List id="OMFI:ATTR:AttrRefs">
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">SAVES_SNAPSHOTS</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">ACTIVATES_LINKED</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">2</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">LINKED_BIN_LAYOUT</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:StringAttribute" type="string">None</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">PANELS_COVER_ENTIRE_WINDOW</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">1</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">WS_TYPE</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">1</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">CW_HEMI_MODE</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:IntAttribute" type="int32">0</AvProp>
+            </ListElem>
+            <ListElem/>
+          </List>
+        </AvClass>
+      </AvProp>
+      <AvProp id="WKst" name="iAttrs" type="reference">
+        <AvClass id="ATTR">
+          <AvProp id="ATTR" name="__OMFI:ATTR:NumItems" type="int32">46</AvProp>
+          <List id="OMFI:ATTR:AttrRefs">
+            <ListElem>
+              <AvProp id="ATTR" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:Name" type="string">WS_PROJ_WINDOW_DEC</AvProp>
+              <AvProp id="ATTR" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1402</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">378</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">1d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">TRUE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">1d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">8 ed ee e8 f1 f7 b2 a2 a6 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_CONSOLE_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1211</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">180</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_AUDIO_EFFECT_MODE_TOOL_1</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="AEWS">
+                  <AvProp id="AEWS" name="version" type="int16">1</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">717</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">2159</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">1400</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">2489</AvProp>
+                  <AvProp id="AEWS" name="WasWindowVisible" type="Boolean">TRUE</AvProp>
+                  <AvProp id="AEWS" name="WhichAudioEffectWin" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="NumOfAudioEffectClones" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="CurrentEffectModeID" type="int32">1</AvProp>
+                  <AvProp id="AEWS" name="WasWindowGrown" type="int32">1</AvProp>
+                  <AvProp id="AEWS" name="GrownWindowHeight" type="int32">598</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataOne" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataTwo" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataThree" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataFour" type="int32">1</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataFive" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataSix" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="Padding" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="Padding" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="Padding" type="int32">0</AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="AEWS" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="AEWS" name="OMFI:ATTB:Name" type="string">WS_AUDIO_EFFECT_MODE_TOOL_1_DEC</AvProp>
+              <AvProp id="AEWS" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">717</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2159</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1400</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2489</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">1d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">TRUE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">1d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">8 26 56 60 d8 d5 bc ab e0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_AUDIO_EFFECT_MODE_TOOL_2</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="AEWS">
+                  <AvProp id="AEWS" name="version" type="int16">1</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">0</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">0</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">0</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">0</AvProp>
+                  <AvProp id="AEWS" name="WasWindowVisible" type="Boolean">FALSE</AvProp>
+                  <AvProp id="AEWS" name="WhichAudioEffectWin" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="NumOfAudioEffectClones" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="CurrentEffectModeID" type="int32">1</AvProp>
+                  <AvProp id="AEWS" name="WasWindowGrown" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="GrownWindowHeight" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataOne" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataTwo" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataThree" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataFour" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataFive" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataSix" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="Padding" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="Padding" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="Padding" type="int32">0</AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="AEWS" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="AEWS" name="OMFI:ATTB:Name" type="string">WS_AUDIO_EFFECT_MODE_TOOL_3</AvProp>
+              <AvProp id="AEWS" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="AEWS">
+                  <AvProp id="AEWS" name="version" type="int16">1</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">0</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">0</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">0</AvProp>
+                  <AvProp id="AEWS" name="WindowRect" type="int16">0</AvProp>
+                  <AvProp id="AEWS" name="WasWindowVisible" type="Boolean">FALSE</AvProp>
+                  <AvProp id="AEWS" name="WhichAudioEffectWin" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="NumOfAudioEffectClones" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="CurrentEffectModeID" type="int32">1</AvProp>
+                  <AvProp id="AEWS" name="WasWindowGrown" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="GrownWindowHeight" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataOne" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataTwo" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataThree" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataFour" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataFive" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="EffectModeDataSix" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="Padding" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="Padding" type="int32">0</AvProp>
+                  <AvProp id="AEWS" name="Padding" type="int32">0</AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="AEWS" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="AEWS" name="OMFI:ATTB:Name" type="string">WS_AUDIO_PUNCH_IN_TOOL_DEC</AvProp>
+              <AvProp id="AEWS" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">23</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1203</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">547</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_AUDIO_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">524</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">168</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_COMPOSER_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Decs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1032</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">546</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2489</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">1d</AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_TIMELINE_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Decs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">877</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">474</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1400</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2154</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">1d</AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_DIGITIZE_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">690</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">408</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_VIDEO_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">888</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">434</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1161</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">629</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_CALC_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">59</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1593</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1162</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_EFFECT_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">199</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">243</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_KEYFRAME_EDITOR_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">583</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">680</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_MOTIONFX_EDITOR_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1615</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">400</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_COLOR_CORRECTION_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Decs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">610</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2491</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_TC_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">545</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2155</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">713</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2489</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">1d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">TRUE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_MINI_PAL_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Decs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">83</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1611</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">140</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_DEBUG_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">65</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">589</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">648</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_VIDEO_OUTPUT_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">970</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">221</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2489</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_DIGCUT_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Decs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">83</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">704</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2320</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_TRACKING_TOOL_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">65</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">34</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">361</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">504</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_DMF_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">822</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1151</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1162</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_COLORTOOL_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1039</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1655</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1162</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_LOCATOR_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1402</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">378</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">1d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">1d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">8 ae 9c ad 94 a1 a6 4a 5f </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_TL_COMMENTS_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">638</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1173</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1162</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_RESTRICTION_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">385</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">594</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">909</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1242</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_REMOTEASSETSTOOL_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Decs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">0</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">332</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1017</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_SERIAL_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">60</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1551</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">174</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_HARDWARE_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">60</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1511</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">460</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1851</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_SEARCH_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">316</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">498</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">866</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1407</AvProp>
+                  <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
+                  <AvProp id="Tabs" name="sibling.left" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.right" type="uint32">0d</AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Tabs" name="sibling.data" type="bytes">0 </AvProp>
+                  <AvProp id="Decs" name="Attrs" type="reference">
+                    <AvClass id="CATL">
+                      <AvProp id="CATL" name="num_items" type="int32">0</AvProp>
+                    </AvClass>
+                  </AvProp>
+                </AvClass>
+              </AvProp>
+            </ListElem>
+            <ListElem>
+              <AvProp id="CATL" name="OMFI:ATTB:Kind" type="int32">3</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:Name" type="string">WS_SRCBROWSER_WINDOW_DEC</AvProp>
+              <AvProp id="CATL" name="OMFI:ATTB:ObjAttribute" type="reference">
+                <AvClass id="Tabs">
+                  <AvProp id="Decs" name="version" type="int16">1</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">717</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2159</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">1400</AvProp>
+                  <AvProp id="Decs" name="DecorationFrame" type="int16">2489</AvProp>
                   <AvProp id="Decs" name="DecorationFlags" type="uint32">0d</AvProp>
                   <AvProp id="Tabs" name="isCurrent" type="Boolean">FALSE</AvProp>
                   <AvProp id="Tabs" name="sibling.left" type="uint32">1d</AvProp>
